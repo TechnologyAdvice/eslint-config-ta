@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ta-webapp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "eslint eslintconfig technologyadvice",
   "main": "index.js",
   "scripts": {
