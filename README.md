@@ -1,26 +1,31 @@
 eslint-config-ta-webapp
 =======================
 
-Reusable [eslint](http://www.eslint.org) config for TA web apps.
+Reusable [ESlint](http://www.eslint.org) config for TA web apps.
+
+## Install
 
 ```
-$ npm i eslint-config-ta-webapp -D
+npm install eslint-config-ta-webapp --save-dev
 ```
+## Usage
 
-Then add a [`.eslintrc`](http://eslint.org/docs/user-guide/configuring.html) in the root of your project:
+### /.eslintrc
+
 ```json
 {
   "extends": "ta-webapp"
 }
 ```
 
-In `/test` add another [`.eslintrc`](http://eslint.org/docs/user-guide/configuring.html):
+### /test/.eslintrc
+
 ```json
 {
   "extends": "ta-webapp/lib/tests"
 }
 ```
->Adds sane overrides for testing. Like, mocha/sinon/chai globals, more liberal nesting, etc.
+>Sane overrides for testing. Like, mocha/sinon/chai globals, more liberal nesting, etc.
 
 
 ## Support
@@ -30,4 +35,5 @@ In `/test` add another [`.eslintrc`](http://eslint.org/docs/user-guide/configuri
 - JSDoc
 - Mocha
 - ES6/7/Future
+
 ...and more
