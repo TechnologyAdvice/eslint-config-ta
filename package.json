@@ -20,10 +20,5 @@
   "bugs": {
     "url": "https://github.com/TechnologyAdvice/eslint-config-react/issues"
   },
-  "homepage": "https://github.com/TechnologyAdvice/eslint-config-react#readme",
-  "dependencies": {
-    "eslint-plugin-mocha": "^1.0.0",
-    "eslint-plugin-react": "^3.5.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/TechnologyAdvice/eslint-config-react#readme"
 }
