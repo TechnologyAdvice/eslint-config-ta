@@ -4,7 +4,6 @@ module.exports = {
   },
   'extends': [
     'ta-webapp/rules/best-practices',
-    'ta-webapp/rules/defaults',
     'ta-webapp/rules/errors',
     'ta-webapp/rules/es6',
     'ta-webapp/rules/jsdoc',
