@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TechnologyAdvice/eslint-config-react.git"
+    "url": "git+https://github.com/TechnologyAdvice/eslint-config-ta-webapp.git"
   },
   "keywords": [
     "eslint",
@@ -18,7 +18,7 @@
   "author": "TechnologyAdvice <devteam@technologyadvice.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TechnologyAdvice/eslint-config-react/issues"
+    "url": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp/issues"
   },
-  "homepage": "https://github.com/TechnologyAdvice/eslint-config-react#readme"
+  "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp#readme"
 }
