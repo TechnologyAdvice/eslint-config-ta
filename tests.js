@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': 'ta-webapp/lib/defaults',
+  'extends': 'ta-webapp/base',
   'env': {
     'node': true,
     'mocha': true
@@ -12,6 +12,7 @@ module.exports = {
     'should': false
   },
   'rules': {
-    'max-nested-callbacks': [2, 4]                    // more liberal callbacks for
+    // testing lends itself to deeply nested callbacks
+    'max-nested-callbacks': 0
   },
 };

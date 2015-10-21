@@ -22,7 +22,7 @@ npm install eslint-config-ta-webapp --save-dev
 
 ```json
 {
-  "extends": "ta-webapp/lib/tests"
+  "extends": "ta-webapp/tests"
 }
 ```
 >Sane overrides for testing. Like, mocha/sinon/chai globals, more liberal nesting, etc.

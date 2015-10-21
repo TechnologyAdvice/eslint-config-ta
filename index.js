@@ -1,1 +1,6 @@
-module.exports = require('./lib/defaults');
+module.exports = {
+  'extends': [
+    'ta-webapp/base',
+  ],
+  rules: {}
+};
