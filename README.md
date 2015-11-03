@@ -37,3 +37,19 @@ npm install eslint-config-ta-webapp --save-dev
 - ES6/7/Future
 
 ...and more
+
+## Deployment
+
+After merging any changes into `master`:
+
+```
+# get the latest
+git checkout master
+git pull
+
+# deploy it
+npm version <patch|minor|major>
+npm run deploy
+```
+
+>You'll be prompted for npm creds on deploy, use the shared TA creds.
