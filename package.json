@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ta-webapp",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "Reusable eslint config for TA web apps.",
   "main": "index.js",
   "scripts": {
