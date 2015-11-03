@@ -4,7 +4,7 @@
   "description": "Reusable eslint config for TA web apps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "npm login && git push && git push --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
