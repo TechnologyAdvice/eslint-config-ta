@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp/issues"
   },
-  "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp#readme"
+  "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp#readme",
+  "dependencies": {
+    "eslint-config-defaults": "^7.1.1"
+  }
 }
