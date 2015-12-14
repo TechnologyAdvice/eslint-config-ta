@@ -1,4 +1,4 @@
-eslint-config-ta-webapp
+eslint-config-ta
 =======================
 
 Reusable [ESlint](http://www.eslint.org) config for TA web apps.
