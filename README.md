@@ -1,20 +1,47 @@
 eslint-config-ta
 =======================
 
-Reusable [ESlint](http://www.eslint.org) config for TA web apps.
-
-## Install
+[ESlint](http://www.eslint.org) config for TechnologyAdvice.
 
 ```
-npm install eslint-config-ta-webapp --save-dev
+npm i eslint-config-ta -D
 ```
+
 ## Usage
 
-### /.eslintrc
+[Extend](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) relevant `ta/*` rules in your 
+`.eslintrc`.
+
+**Default**
+
+In the project root:
 
 ```json
 {
-  "extends": "ta-webapp"
+  "extends": "ta/(frontend|backend)/default"
+}
+```
+
+**Development**
+
+When in development, conditionally run the development config.  npm script example:
+```json
+{
+  "scripts": {
+    "lint": "eslint 
+  }
+}
+```
+
+## Example configs
+
+### /.eslintrc
+
+Root config
+
+```json
+{
+  "extends": "ta/organization/default"
 }
 ```
 
@@ -22,21 +49,9 @@ npm install eslint-config-ta-webapp --save-dev
 
 ```json
 {
-  "extends": "ta-webapp/tests"
+  "extends": "ta/organization/test"
 }
 ```
->Sane overrides for testing. Like, mocha/sinon/chai globals, more liberal nesting, etc.
-
-
-## Support
-
-- React
-- JSX
-- JSDoc
-- Mocha
-- ES6/7/Future
-
-...and more
 
 ## Deployment
 

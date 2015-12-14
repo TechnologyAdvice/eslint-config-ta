@@ -1,14 +1,16 @@
 {
-  "name": "eslint-config-ta-webapp",
-  "version": "2.1.0",
+  "name": "eslint-config-ta",
+  "version": "3.0.0",
   "description": "Reusable eslint config for TA web apps.",
   "main": "index.js",
   "scripts": {
-    "deploy": "npm login && git push && git push --follow-tags && npm publish"
+    "deploy": "npm login && git push && git push --follow-tags && npm publish",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TechnologyAdvice/eslint-config-ta-webapp.git"
+    "url": "git+https://github.com/TechnologyAdvice/eslint-config-ta.git"
   },
   "keywords": [
     "eslint",
@@ -18,7 +20,16 @@
   "author": "TechnologyAdvice <devteam@technologyadvice.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp/issues"
+    "url": "https://github.com/TechnologyAdvice/eslint-config-ta/issues"
   },
-  "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta-webapp#readme"
+  "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta#readme",
+  "dependencies": {
+    "eslint-config-defaults": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-plugin-mocha": "^1.1.0",
+    "eslint-plugin-react": "^3.11.3"
+  }
 }
