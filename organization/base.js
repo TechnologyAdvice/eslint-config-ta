@@ -8,6 +8,8 @@ module.exports = {
     /**
      * Best Practices
      */
+    // enforces consistent newlines before or after dots
+    'dot-location': [2, 'property'],
     // disallow unnecessary .call() and .apply()
     'no-useless-call': 2,
     // disallow unnecessary concatenation of literals or template literals

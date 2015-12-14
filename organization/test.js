@@ -4,7 +4,7 @@ module.exports = {
     'mocha': true
   },
   'extends': [
-    'ta-webapp/organization/production',
+    'ta-webapp/organization/base',
   ],
   'globals': {
     'sinon': false,

@@ -4,7 +4,7 @@ module.exports = {
   },
   'extends': [
     'defaults/rules/react/airbnb',
-    'ta-webapp/organization/production',
+    'ta-webapp/organization/base',
   ],
   'rules': {
     /**
@@ -14,12 +14,6 @@ module.exports = {
     'no-console': 2,
     // disallow use of debugger
     'no-debugger': 2,
-
-    /**
-     * Legacy
-     */
-    // specify the maximum length of a line in your program
-    'max-len': [2, 120, 4],
 
     /**
      * React
@@ -38,6 +32,8 @@ module.exports = {
     /**
      * Style
      */
+    // specify the maximum length of a line in your program
+    'max-len': [2, 120, 4],
     // require a capital letter for constructors
     'new-cap': 0,
   },

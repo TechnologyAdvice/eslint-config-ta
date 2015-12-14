@@ -1,7 +1,7 @@
 module.exports = {
   'extends': [
     'ta-webapp/organization/development',
-    'ta-webapp/frontend/production',
+    'ta-webapp/frontend/base',
   ],
   'rules': {
     /**

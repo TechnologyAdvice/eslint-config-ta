@@ -1,11 +1,7 @@
 module.exports = {
-  'env': {
-    'node': true,
-  },
   'extends': [
     'ta-webapp/organization/development',
-    'ta-webapp/backend/production',
+    'ta-webapp/backend/base',
   ],
-  'parser': 'babel-eslint',
   'rules': {},
 };
