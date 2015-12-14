@@ -1,9 +1,11 @@
 module.exports = {
   'extends': [
     'defaults/configurations/airbnb',
-    'ta-webapp/rules/mocha',
   ],
   'parser': 'babel-eslint',
+  'plugins': [
+    'mocha',
+  ],
   'rules': {
     /**
      * Best Practices
@@ -99,4 +101,4 @@ module.exports = {
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': [2, {'vars': 'local', 'args': 'none'}],
   },
-};
+}

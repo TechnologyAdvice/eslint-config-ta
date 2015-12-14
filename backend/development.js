@@ -1,7 +1,7 @@
 module.exports = {
   'extends': [
-    'ta-webapp/organization/development',
-    'ta-webapp/backend/base',
+    'ta/organization/development',
+    'ta/backend/default',
   ],
   'rules': {},
-};
+}

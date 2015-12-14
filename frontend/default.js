@@ -4,7 +4,10 @@ module.exports = {
   },
   'extends': [
     'defaults/rules/react/airbnb',
-    'ta-webapp/organization/base',
+    'ta/organization/default',
+  ],
+  'plugins': [
+    'react',
   ],
   'rules': {
     /**
@@ -29,30 +32,30 @@ module.exports = {
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
     // Enforce component methods order
-    "react/sort-comp": [2, {
-      "order": [
-        "displayName",
-        "propTypes",
-        "contextTypes",
-        "childContextTypes",
-        "mixins",
-        "statics",
-        "defaultProps",
-        "constructor",
-        "getDefaultProps",
-        "getInitialState",
-        "getChildContext",
-        "componentWillMount",
-        "componentDidMount",
-        "componentWillReceiveProps",
-        "shouldComponentUpdate",
-        "componentWillUpdate",
-        "componentDidUpdate",
-        "componentWillUnmount",
-        "/^(on|handle).+$/",
-        "/^get.+$/",
-        "/^render.+$/",
-        "render",
+    'react/sort-comp': [2, {
+      'order': [
+        'displayName',
+        'propTypes',
+        'contextTypes',
+        'childContextTypes',
+        'mixins',
+        'statics',
+        'defaultProps',
+        'constructor',
+        'getDefaultProps',
+        'getInitialState',
+        'getChildContext',
+        'componentWillMount',
+        'componentDidMount',
+        'componentWillReceiveProps',
+        'shouldComponentUpdate',
+        'componentWillUpdate',
+        'componentDidUpdate',
+        'componentWillUnmount',
+        '/^(on|handle).+$/',
+        '/^get.+$/',
+        '/^render.+$/',
+        'render',
       ],
     }],
 
@@ -64,4 +67,4 @@ module.exports = {
     // require a capital letter for constructors
     'new-cap': 0,
   },
-};
+}

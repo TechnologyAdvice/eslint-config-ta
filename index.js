@@ -1,6 +1,6 @@
 module.exports = {
   'extends': [
-    'ta-webapp/organization/base',
+    'ta/organization/default',
   ],
-  rules: {}
-};
+  rules: {},
+}

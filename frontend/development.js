@@ -1,7 +1,7 @@
 module.exports = {
   'extends': [
-    'ta-webapp/organization/development',
-    'ta-webapp/frontend/base',
+    'ta/organization/development',
+    'ta/frontend/default',
   ],
   'rules': {
     /**
@@ -12,4 +12,4 @@ module.exports = {
     // disallow use of debugger
     'no-debugger': 1,
   },
-};
+}

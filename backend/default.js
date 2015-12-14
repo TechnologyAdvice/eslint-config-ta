@@ -3,7 +3,7 @@ module.exports = {
     'node': true,
   },
   'extends': [
-    'ta-webapp/organization/base',
+    'ta/organization/default',
   ],
   'rules': {},
-};
+}

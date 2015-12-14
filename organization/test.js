@@ -1,21 +1,21 @@
 module.exports = {
   'env': {
     'node': true,
-    'mocha': true
+    'mocha': true,
   },
   'extends': [
-    'ta-webapp/organization/base',
+    'ta/organization/default',
   ],
   'globals': {
     'sinon': false,
     'expect': false,
-    'should': false
+    'should': false,
   },
   'rules': {
     /**
      * Style
      */
     // testing lends itself to deeply nested callbacks
-    'max-nested-callbacks': 0
+    'max-nested-callbacks': 0,
   },
-};
+}
