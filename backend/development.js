@@ -1,12 +1,10 @@
 module.exports = {
   'env': {
-    'browser': true,
     'node': true,
   },
   'extends': [
-    'defaults/configurations/airbnb',
-    'ta-webapp/rules/jsdoc',
-    'ta-webapp/rules/mocha',
+    'ta-webapp/organization/development',
+    'ta-webapp/backend/production',
   ],
   'parser': 'babel-eslint',
   'rules': {},
