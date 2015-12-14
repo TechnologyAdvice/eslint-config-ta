@@ -28,6 +28,33 @@ module.exports = {
     'react/jsx-no-duplicate-props': 2,
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
+    // Enforce component methods order
+    "react/sort-comp": [2, {
+      "order": [
+        "displayName",
+        "propTypes",
+        "contextTypes",
+        "childContextTypes",
+        "mixins",
+        "statics",
+        "defaultProps",
+        "constructor",
+        "getDefaultProps",
+        "getInitialState",
+        "getChildContext",
+        "componentWillMount",
+        "componentDidMount",
+        "componentWillReceiveProps",
+        "shouldComponentUpdate",
+        "componentWillUpdate",
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "/^(on|handle).+$/",
+        "/^get.+$/",
+        "/^render.+$/",
+        "render",
+      ],
+    }],
 
     /**
      * Style
