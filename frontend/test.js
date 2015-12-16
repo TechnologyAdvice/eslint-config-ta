@@ -1,7 +1,7 @@
 module.exports = {
   'extends': [
-    'ta/organization/test',
     'ta/frontend/default',
+    'ta/organization/test',
   ],
   'globals': {},
   'rules': {},
