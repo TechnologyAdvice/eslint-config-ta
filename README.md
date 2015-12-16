@@ -12,7 +12,7 @@ npm i eslint-config-ta -D
 [Extend](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) relevant `ta/*` rules in your
 `.eslintrc`.
 
-**Default**
+### Root Config
 
 In the project root:
 
@@ -25,7 +25,20 @@ In the project root:
 }
 ```
 
-At the root of each group (e.g. `ta`, `ta/(frontend|backend)`) is an `index.js` file that will select the appropriate
+### Test Config
+
+Use the test config to customize rules for the `/test` directory:
+
+```json
+{
+  "extends": [
+    "ta/(backend|frontend)/test"
+  ]
+}
+```
+
+### Environment Detection
+At the root of each group (e.g. `ta`, `ta/(frontend|backend)`) is an `index.js` file. It will select the appropriate
 configuration file based on the current `NODE_ENV`. For example, where your `.eslintrc` is:
 
 ```json
