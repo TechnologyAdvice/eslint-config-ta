@@ -9,7 +9,7 @@ npm i eslint-config-ta -D
 
 ## Usage
 
-[Extend](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) relevant `ta/*` rules in your 
+[Extend](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) relevant `ta/*` rules in your
 `.eslintrc`.
 
 **Default**
@@ -18,18 +18,34 @@ In the project root:
 
 ```json
 {
-  "extends": "ta/(frontend|backend)/default"
+  "extends": [
+    "ta",
+    "ta/(backend|frontend)"
+  ]
 }
 ```
 
-**Development**
+At the root of each group (e.g. `ta`, `ta/(frontend|backend)`) is an `index.js` file that will select the appropriate
+configuration file based on the current `NODE_ENV`. For example, where your `.eslintrc` is:
 
-When in development, conditionally run the development config.  npm script example:
 ```json
 {
-  "scripts": {
-    "lint": "eslint 
-  }
+  "extends": [
+    "ta",
+    "ta/frontend"
+  ]
+}
+```
+
+When you run `NODE_ENV=production eslint . ./`, `eslint-config-ta` will handle extending the correct configuration
+files, so under the hood it looks like this:
+
+```json
+{
+  "extends": [
+    "ta/organization/production",
+    "ta/frontend/production"
+  ]
 }
 ```
 
@@ -41,7 +57,7 @@ Root config
 
 ```json
 {
-  "extends": "ta/organization/default"
+  "extends": "ta"
 }
 ```
 
@@ -49,7 +65,7 @@ Root config
 
 ```json
 {
-  "extends": "ta/organization/test"
+  "extends": "ta/(frontend|backend)/test"
 }
 ```
 

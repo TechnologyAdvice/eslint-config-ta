@@ -1,7 +1,6 @@
 module.exports = {
   'extends': [
-    'ta/organization/development',
-    'ta/frontend/default',
+    'ta/frontend/_base',
   ],
   'rules': {
     /**
