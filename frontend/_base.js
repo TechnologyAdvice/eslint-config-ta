@@ -4,7 +4,6 @@ module.exports = {
   },
   'extends': [
     'defaults/rules/react/airbnb',
-    'ta/organization/default',
   ],
   'plugins': [
     'react',

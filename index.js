@@ -1,6 +1,3 @@
 module.exports = {
-  'extends': [
-    'ta/organization/default',
-  ],
-  rules: {},
+  'extends': 'ta/organization'
 }
