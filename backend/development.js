@@ -2,5 +2,7 @@ module.exports = {
   'extends': [
     'ta/backend/_base',
   ],
-  'rules': {},
+  'rules': {
+    'complexity': [1, 2],
+  },
 }

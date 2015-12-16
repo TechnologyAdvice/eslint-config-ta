@@ -17,5 +17,6 @@ module.exports = {
      */
     // testing lends itself to deeply nested callbacks
     'max-nested-callbacks': 0,
+    'complexity': [1, 2],
   },
 }
