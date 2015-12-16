@@ -49,26 +49,6 @@ files, so under the hood it looks like this:
 }
 ```
 
-## Example configs
-
-### /.eslintrc
-
-Root config
-
-```json
-{
-  "extends": "ta"
-}
-```
-
-### /test/.eslintrc
-
-```json
-{
-  "extends": "ta/(frontend|backend)/test"
-}
-```
-
 ## Deployment
 
 After merging any changes into `master`:
