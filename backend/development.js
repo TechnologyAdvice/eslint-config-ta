@@ -3,6 +3,6 @@ module.exports = {
     'ta/backend/_base',
   ],
   'rules': {
-    'complexity': [1, 2],
+    'complexity': [1, 7],
   },
 }
