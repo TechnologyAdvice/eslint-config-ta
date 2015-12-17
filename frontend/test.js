@@ -15,7 +15,7 @@ module.exports = {
     /**
      * Style
      */
-    // testing lends itself to deeply nested callbacks
-    'max-nested-callbacks': 0
+    // specify the maximum depth callbacks can be nested
+    'max-nested-callbacks': 0,
   },
 }

@@ -16,7 +16,7 @@ module.exports = {
     'no-console': 2,
     // disallow use of debugger
     'no-debugger': 2,
-    // ease code complexity
+    // specify the maximum cyclomatic complexity allowed in a program
     'complexity': [1, 5],
 
     /**
