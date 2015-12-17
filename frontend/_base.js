@@ -16,6 +16,8 @@ module.exports = {
     'no-console': 2,
     // disallow use of debugger
     'no-debugger': 2,
+    // ease code complexity
+    'complexity': [1, 5],
 
     /**
      * React
