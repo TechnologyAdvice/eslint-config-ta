@@ -1,5 +1,12 @@
 # Change Log
 
+## [v3.2.1](https://github.com/TechnologyAdvice/eslint-config-ta/tree/v3.2.1) (2016-01-04)
+[Full Changelog](https://github.com/TechnologyAdvice/eslint-config-ta/compare/v3.2.0...v3.2.1)
+
+**Merged pull requests:**
+
+- react sort everything-else [\#9](https://github.com/TechnologyAdvice/eslint-config-ta/pull/9) ([levithomason](https://github.com/levithomason))
+
 ## [v3.2.0](https://github.com/TechnologyAdvice/eslint-config-ta/tree/v3.2.0) (2016-01-04)
 [Full Changelog](https://github.com/TechnologyAdvice/eslint-config-ta/compare/v3.1.1...v3.2.0)
 
