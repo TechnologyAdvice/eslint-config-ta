@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ta",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Reusable eslint config for TA web apps.",
   "main": "index.js",
   "scripts": {
