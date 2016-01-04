@@ -42,6 +42,7 @@ module.exports = {
         'mixins',
         'statics',
         'defaultProps',
+        'state',
         'constructor',
         'getDefaultProps',
         'getInitialState',
