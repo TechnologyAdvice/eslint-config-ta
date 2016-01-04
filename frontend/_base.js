@@ -56,6 +56,7 @@ module.exports = {
         'componentWillUnmount',
         '/^(on|handle).+$/',
         '/^get.+$/',
+        'everything-else',
         '/^render.+$/',
         'render',
       ],
