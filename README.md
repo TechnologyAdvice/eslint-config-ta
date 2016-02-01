@@ -62,18 +62,12 @@ files, so under the hood it looks like this:
 }
 ```
 
-## Deployment
+### Releasing
 
-After merging any changes into `master`:
+On the latest clean `master`:
 
-```
-# get the latest
-git checkout master
-git pull
-
-# deploy it
-npm version <patch|minor|major>
-npm run deploy
-```
+    npm run release:major
+    npm run release:minor
+    npm run release:patch
 
 >You'll be prompted for npm creds on deploy, use the shared TA creds.

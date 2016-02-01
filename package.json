@@ -4,9 +4,11 @@
   "description": "Reusable eslint config for TA web apps.",
   "main": "index.js",
   "scripts": {
-    "deploy": "npm login && git push && git push --follow-tags && npm publish",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "release:major": "ta-script npm/release major",
+    "release:minor": "ta-script npm/release minor",
+    "release:patch": "ta-script npm/release patch"
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,8 @@
     "eslint-config-defaults": "^7.1.1",
     "eslint-plugin-mocha": "^1.1.0",
     "eslint-plugin-react": "^3.11.3"
+  },
+  "devDependencies": {
+    "@technologyadvice/ta-scripts": "^1.6.0"
   }
 }
