@@ -69,5 +69,3 @@ On the latest clean `master`:
     npm run release:major
     npm run release:minor
     npm run release:patch
-
->You'll be prompted for npm creds on deploy, use the shared TA creds.
