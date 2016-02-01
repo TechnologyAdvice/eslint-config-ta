@@ -69,5 +69,7 @@ module.exports = {
     'max-len': [2, 120, 4],
     // require a capital letter for constructors
     'new-cap': 0,
+    // require spaces around curly brackets (i.e. in destructuring)
+    'object-curly-spacing': [2, 'always'],
   },
 }
