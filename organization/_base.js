@@ -5,6 +5,7 @@ module.exports = {
   'parser': 'babel-eslint',
   'plugins': [
     'mocha',
+    'flow-vars',
   ],
   'rules': {
     /**
@@ -100,5 +101,11 @@ module.exports = {
      */
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': [2, {'vars': 'local', 'args': 'none'}],
+
+    /**
+     * Flow-Specific
+     */
+    "flow-vars/define-flow-type": 1,
+    "flow-vars/use-flow-type": 1,
   },
 }
