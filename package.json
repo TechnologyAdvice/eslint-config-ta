@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta#readme",
   "dependencies": {
-    "babel-eslint": "^5.0.0-beta9",
-    "eslint": "^1.10.3",
-    "eslint-config-defaults": "^7.1.1",
-    "eslint-plugin-flow-vars": "^0.1.3",
-    "eslint-plugin-mocha": "^1.1.0",
-    "eslint-plugin-react": "^3.11.3"
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.2.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-flow-vars": "^0.2.1",
+    "eslint-plugin-mocha": "^2.0.0",
+    "eslint-plugin-react": "^4.1.0"
   },
   "devDependencies": {
     "@technologyadvice/ta-scripts": "^1.6.0"
