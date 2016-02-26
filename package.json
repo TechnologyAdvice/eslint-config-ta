@@ -28,7 +28,7 @@
   "dependencies": {
     "babel-eslint": "^5.0.0",
     "eslint": "^2.2.0",
-    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-airbnb": "^6.0.2",
     "eslint-plugin-flow-vars": "^0.2.1",
     "eslint-plugin-mocha": "^2.0.0",
     "eslint-plugin-react": "^4.1.0"

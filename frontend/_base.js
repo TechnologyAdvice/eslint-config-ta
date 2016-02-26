@@ -3,7 +3,7 @@ module.exports = {
     'browser': true,
   },
   'extends': [
-    'defaults/rules/react/airbnb',
+    'airbnb/rules/react',
   ],
   'plugins': [
     'react',
@@ -35,32 +35,48 @@ module.exports = {
     // Enforce component methods order
     'react/sort-comp': [2, {
       'order': [
-        'displayName',
-        'propTypes',
-        'contextTypes',
-        'childContextTypes',
-        'mixins',
-        'statics',
-        'defaultProps',
-        'state',
-        'constructor',
-        'getDefaultProps',
-        'getInitialState',
-        'getChildContext',
-        'componentWillMount',
-        'componentDidMount',
-        'componentWillReceiveProps',
-        'shouldComponentUpdate',
-        'componentWillUpdate',
-        'componentDidUpdate',
-        'componentWillUnmount',
+        'static-methods',
+        'lifecycle',
         '/^(on|handle).+$/',
         '/^get.+$/',
         'everything-else',
-        '/^render.+$/',
-        'render',
+        'rendering',
       ],
+      'groups': {
+        'lifecycle': [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'childContextTypes',
+          'mixins',
+          'statics',
+          'defaultProps',
+          'constructor',
+          'getDefaultProps',
+          'getInitialState',
+          'state',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount',
+        ],
+        'rendering': [
+          '/^render.+$/',
+          'render',
+        ],
+      },
     }],
+
+    /**
+     * Compatibility from 1.0.0 -> 2.0.0 migration, mostly new rules
+     * from Airbnb config that conflict with our existing code base.
+     */
+    // Prevent function creation on each render
+    'react/jsx-no-bind': 1, // intended: 2
 
     /**
      * Style

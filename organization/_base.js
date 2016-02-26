@@ -1,6 +1,6 @@
 module.exports = {
   'extends': [
-    'defaults/configurations/airbnb',
+    'airbnb/base',
   ],
   'parser': 'babel-eslint',
   'plugins': [
@@ -105,7 +105,15 @@ module.exports = {
     /**
      * Flow-Specific
      */
-    "flow-vars/define-flow-type": 1,
-    "flow-vars/use-flow-type": 1,
+    'flow-vars/define-flow-type': 1,
+    'flow-vars/use-flow-type': 1,
+
+    /**
+     * Best Practices
+     */
+    'arrow-body-style': [0, 'as-needed'],
+    'consistent-return': 2,
+    'no-param-reassign': 0, // overrides airbnb rule
+    'prefer-template': 2,
   },
 }
