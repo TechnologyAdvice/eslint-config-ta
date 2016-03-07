@@ -77,6 +77,7 @@ module.exports = {
      */
     // Prevent function creation on each render
     'react/jsx-no-bind': 1, // intended: 2
+    'react/prefer-stateless-function': 1, // intended: 2
 
     /**
      * Style
