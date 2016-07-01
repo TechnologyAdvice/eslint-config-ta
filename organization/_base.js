@@ -114,6 +114,6 @@ module.exports = {
     'arrow-body-style': [0, 'as-needed'],
     'consistent-return': 2,
     'no-param-reassign': 0, // overrides airbnb rule
-    'prefer-template': 2,
+    'prefer-template': 0,
   },
 }
