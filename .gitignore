@@ -1,13 +1,4 @@
-.idea
+*.log*
 .DS_STORE
+.idea/
 node_modules/
-bower_components/
-build/
-env.json
-npm-debug.log
-_builds/
-_projects/
-_steps/
-testBundle.js
-docs/build
-docgenInfo.json
