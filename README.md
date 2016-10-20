@@ -1,5 +1,5 @@
-eslint-config-ta
-=======================
+# eslint-config-ta
+[![Circle CI](https://img.shields.io/circleci/project/TechnologyAdvice/eslint-config-ta/master.svg?style=flat-square)](https://circleci.com/gh/TechnologyAdvice/eslint-config-ta/tree/master)
 
 [ESlint](http://www.eslint.org) config for TechnologyAdvice.
 
