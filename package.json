@@ -34,6 +34,6 @@
     "eslint-plugin-react": "^4.1.0"
   },
   "devDependencies": {
-    "@technologyadvice/ta-scripts": "^1.6.0"
+    "ta-scripts": "^2.5.2"
   }
 }
