@@ -51,7 +51,7 @@ module.exports = {
      * Legacy
      */
     // specify the maximum length of a line in your program
-    'max-len': [2, 80, 4],
+    'max-len': [2, 120, 4],
     // specify the maximum depth that blocks can be nested
     'max-depth': [2, 3],
 
@@ -91,7 +91,7 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     'no-unneeded-ternary': 2,
     // require or disallow padding inside curly braces (fixable)
-    'object-curly-spacing': [2, 'never'],
+    'object-curly-spacing': [2, 'always'],
     // require or disallow use of semicolons instead of ASI (fixable)
     semi: [1, 'never'],
 
