@@ -1,6 +1,4 @@
 module.exports = {
-  'extends': [
-    'ta/backend/_base',
-  ],
-  'rules': {},
+  extends: './_base.js',
+  rules: {},
 }

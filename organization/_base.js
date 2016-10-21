@@ -1,13 +1,12 @@
 module.exports = {
-  'extends': [
+  extends: [
     'airbnb/base',
   ],
-  'parser': 'babel-eslint',
-  'plugins': [
+  parser: 'babel-eslint',
+  plugins: [
     'mocha',
-    'flow-vars',
   ],
-  'rules': {
+  rules: {
     /**
      * Best Practices
      */
@@ -25,9 +24,9 @@ module.exports = {
     'no-unexpected-multiline': 0,
     // ensure JSDoc comments are valid
     'valid-jsdoc': [2, {
-      'requireParamDescription': true,
-      'requireReturn': false,
-      'requireReturnDescription': false,
+      requireParamDescription: true,
+      requireReturn: false,
+      requireReturnDescription: false,
     }],
 
     /**
@@ -52,7 +51,7 @@ module.exports = {
      * Legacy
      */
     // specify the maximum length of a line in your program
-    'max-len': [2, 80, 4],
+    'max-len': [2, 120, 4],
     // specify the maximum depth that blocks can be nested
     'max-depth': [2, 3],
 
@@ -72,7 +71,7 @@ module.exports = {
      * Strict
      */
     // require that all functions are run in strict mode
-    'strict': [2, 'never'],
+    strict: [2, 'never'],
 
     /**
      * Style
@@ -82,31 +81,25 @@ module.exports = {
     // require or disallow padding inside computed properties
     'computed-property-spacing': [2, 'never'],
     // this option sets a specific tab width for your code
-    'indent': [2, 2, {'SwitchCase': 1}],
+    indent: [2, 2, { SwitchCase: 1 }],
     // specify whether double or single quotes should be used in JSX attributes
     'jsx-quotes': [2, 'prefer-single'],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': [2, 2],
     // disallow multiple empty lines
-    'no-multiple-empty-lines': [2, {'max': 2}],
+    'no-multiple-empty-lines': [2, { max: 2 }],
     // disallow the use of Boolean literals in conditional expressions
     'no-unneeded-ternary': 2,
     // require or disallow padding inside curly braces (fixable)
-    'object-curly-spacing': [2, 'never'],
+    'object-curly-spacing': [2, 'always'],
     // require or disallow use of semicolons instead of ASI (fixable)
-    'semi': [1, 'never'],
+    semi: [2, 'never'],
 
     /**
      * Variables
      */
     // disallow declaration of variables that are not used in the code
-    'no-unused-vars': [2, {'vars': 'local', 'args': 'none'}],
-
-    /**
-     * Flow-Specific
-     */
-    'flow-vars/define-flow-type': 1,
-    'flow-vars/use-flow-type': 1,
+    'no-unused-vars': [2, { vars: 'local', args: 'none' }],
 
     /**
      * Best Practices

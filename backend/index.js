@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': require('../env').isDevelopment()
-    ? ['ta/backend/development']
-    : ['ta/backend/production'],
+  extends: process.env.NODE_ENV === 'development'
+    ? './development.js'
+    : './production.js',
 }
