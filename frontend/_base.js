@@ -18,7 +18,7 @@ module.exports = {
     // disallow use of debugger
     'no-debugger': 2,
     // specify the maximum cyclomatic complexity allowed in a program
-    complexity: [1, 5],
+    complexity: [1, 10],
 
     /**
      * React
