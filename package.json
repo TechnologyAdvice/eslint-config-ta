@@ -4,6 +4,7 @@
   "description": "Reusable eslint config for TA web apps.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"There are no tests.\"",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "release:major": "ta-script npm/release major",
