@@ -93,7 +93,7 @@ module.exports = {
     // require or disallow padding inside curly braces (fixable)
     'object-curly-spacing': [2, 'always'],
     // require or disallow use of semicolons instead of ASI (fixable)
-    semi: [1, 'never'],
+    semi: [2, 'never'],
 
     /**
      * Variables
