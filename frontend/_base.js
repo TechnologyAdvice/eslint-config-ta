@@ -34,43 +34,7 @@ module.exports = {
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
     // Enforce component methods order
-    'react/sort-comp': [2, {
-      order: [
-        'static-methods',
-        'lifecycle',
-        '/^(on|handle).+$/',
-        '/^get.+$/',
-        'everything-else',
-        'rendering',
-      ],
-      groups: {
-        lifecycle: [
-          'displayName',
-          'propTypes',
-          'contextTypes',
-          'childContextTypes',
-          'mixins',
-          'statics',
-          'defaultProps',
-          'constructor',
-          'getDefaultProps',
-          'getInitialState',
-          'state',
-          'getChildContext',
-          'componentWillMount',
-          'componentDidMount',
-          'componentWillReceiveProps',
-          'shouldComponentUpdate',
-          'componentWillUpdate',
-          'componentDidUpdate',
-          'componentWillUnmount',
-        ],
-        rendering: [
-          '/^render.+$/',
-          'render',
-        ],
-      },
-    }],
+    'react/sort-comp': 0,
 
     /**
      * Compatibility from 1.0.0 -> 2.0.0 migration, mostly new rules
