@@ -1,0 +1,3 @@
+{
+  "extends": "./organization/index.js"
+}

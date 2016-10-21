@@ -1,7 +1,7 @@
 module.exports = {
-  'env': {
-    'node': true,
+  env: {
+    node: true,
   },
-  'extends': [],
-  'rules': {},
+  extends: [],
+  rules: {},
 }
