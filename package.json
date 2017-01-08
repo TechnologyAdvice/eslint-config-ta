@@ -31,7 +31,7 @@
     "eslint-config-airbnb": "^6.0.2",
     "eslint-plugin-flow-vars": "^0.2.1",
     "eslint-plugin-mocha": "^2.0.0",
-    "eslint-plugin-react": "^4.1.0"
+    "eslint-plugin-react": "^6.9.0"
   },
   "devDependencies": {
     "ta-scripts": "^2.5.2"
