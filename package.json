@@ -27,7 +27,7 @@
   "homepage": "https://github.com/TechnologyAdvice/eslint-config-ta#readme",
   "dependencies": {
     "babel-eslint": "^6.0.0-beta.1",
-    "eslint": "^2.2.0",
+    "eslint": "^3.14.0",
     "eslint-config-airbnb": "^6.0.2",
     "eslint-plugin-flow-vars": "^0.2.1",
     "eslint-plugin-mocha": "^2.0.0",
