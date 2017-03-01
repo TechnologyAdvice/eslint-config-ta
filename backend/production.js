@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': [
-    'ta/backend/_base',
+  extends: [
+    './_base.js',
   ],
 }

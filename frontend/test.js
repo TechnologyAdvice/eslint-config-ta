@@ -1,17 +1,17 @@
 module.exports = {
-  'extends': [
-    'ta/frontend/_base',
+  extends: [
+    './_base.js',
   ],
-  'env': {
-    'node': true,
-    'mocha': true,
+  env: {
+    node: true,
+    mocha: true,
   },
-  'globals': {
-    'sinon': false,
-    'expect': false,
-    'should': false,
+  globals: {
+    sinon: false,
+    expect: false,
+    should: false,
   },
-  'rules': {
+  rules: {
     /**
      * Style
      */
